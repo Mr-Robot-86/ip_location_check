@@ -22,7 +22,7 @@ class GUIApp(QtWidgets.QMainWindow, design.Ui_MainWindow):
         try:
             input = self.lineEdit.text()
             ip = str(input)
-            print(ip)
+            
             response = requests.get(
                 url=f'http://ip-api.com/json/{ip}').json()
             # print(response)
@@ -52,7 +52,7 @@ class GUIApp(QtWidgets.QMainWindow, design.Ui_MainWindow):
             'http://ident.me').read().decode('utf8')
         response = requests.get(
             url=f'http://ip-api.com/json/{external_ip}').json()
-        # print(response)
+        
         data = {
 
             '[Lat]': response.get('lat'),
