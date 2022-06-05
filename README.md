@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/44950848/167718045-4bc46c66-e6b4-4939-af1a-0615cebc2231.png)
+![image](https://user-images.githubusercontent.com/44950848/172062413-16f6d015-71d6-4230-96b5-0c5cddb115aa.png)
+
 
 # ip_location_check
 Скрипт на python3 c ui interface на Qt5.
