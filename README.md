@@ -5,4 +5,4 @@
 Скрипт на python3 c ui interface на Qt5.
 Для работы скрипта нужну установить библиотеки для python3: PyQt5, folium, pandas.
 Добавлено история поиска, поиск по URL.
-Запуск как обычно: python3 ip_map.py 
+Запуск: python3 ip_map.py 
